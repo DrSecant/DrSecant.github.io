@@ -1,0 +1,167 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Joseph Pellegrino</title>
+	<!--[if lt IE 9]><script src="/r10/html5shiv.js"></script><![endif]-->
+	<style>
+		*, #content :first-child, #content :last-child {
+			margin: 0;
+		}
+
+		body {
+			font: 300 15px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background: #333;
+			margin: 50px;
+			color: #fff;
+		}
+
+		h1 {
+			margin-bottom: 20px;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 55px;
+			font-weight: 100;
+			letter-spacing: 30px;
+			text-shadow: 5px 5px 7px #000;
+		}
+		
+		h2 {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 30px;
+			font-weight: 100;
+			letter-spacing: 5px;
+			text-shadow: 3px 3px 5px #444;
+		}
+
+		nav ul {
+			list-style: none;
+			padding: 0 0 0 10px;
+			min-width: 460px;
+		}
+
+		nav li {
+			float: left;
+			position: relative;
+			height: 30px;
+			border-radius: 20px 20px 0 0;
+			margin-left: -10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+			transition: .2s;
+		}
+
+		nav a {
+			display: block;
+			position: relative;
+			width: 100px;
+			height: 20px;
+			padding: 6px 10px 20px 0;
+			border-radius: 20px 20px 0 0;
+			background: #1c1c1c;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			transition: .2s;
+		}
+
+		nav li:hover {
+			z-index: 1;
+		}
+
+		nav li:hover a {
+			background: #1f1f1f;
+			color: #fff;
+		}
+
+		#selected {
+			z-index: 2;
+		}
+
+		#selected a {
+			z-index: 3;
+			background: #222;
+			color: #fff;
+			text-shadow: none;
+			font-weight: 500;
+		}
+
+		#content {
+			position: relative;
+			z-index: 1;
+			clear: both;
+			min-width: 420px;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+			background: #222;
+		}
+
+		#content p {
+			margin: 20px 0;
+		}
+		
+		.headline {
+			height: 300px;
+			background-image: url("Logo.png");
+			background-size: 20%;
+			background-repeat: no-repeat;
+			background-position: center;
+			vertical-align: middle;
+			line-height: 300px;
+		}
+		
+		#title {
+			width: 455px;
+		}
+		
+		#container {
+			padding: 40px;
+		}
+		
+		#inner {
+			padding: 20px;
+		}
+		
+		hr.style {
+			border: 0;
+			height: 1px;
+			background-image: -webkit-linear-gradient(left, #222222, #f0f0f0, #222222);
+			background-image: -moz-linear-gradient(left, #222222, #f0f0f0, #222222);
+			background-image: -ms-linear-gradient(left, #222222, #f0f0f0, #222222);
+			background-image: -o-linear-gradient(left, #222222, #f0f0f0, #222222);
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="headline">
+			<center><h1>Welcome</h1></center>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="Joseph Pellegrino.html">About me</a></li>
+				<li><a href="Resume.html">Resume</a></li>
+				<li><a href="PSS.html">PSS</a></li>
+				<li id="selected"><a href="Contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="content">
+		<div id="container">
+			<div id="title"><hr class="style"><h2>Contact Information</h2><hr class="style"></div>
+			<br>
+			<br>
+			<h3>Feel free to contact me using any of the following information:</h3>
+			<div id="inner">
+				<img src="phone2.png" width="20px" height="20px"></img>&nbsp;&nbsp;(516)-987-1795
+				<br>
+				<img src="mail-icon2.png" width="20px" height="20px"></img>&nbsp;&nbsp;Joseph.Pellegrino.1@stonybrook.edu
+				<br>
+				<img src="building2.png" width="20px" height="20px"></img>&nbsp;&nbsp;PellegrinoSoftwareSolutions@gmail.com
+			</div>
+		</div>
+	</section>
+</body>
+</html>
